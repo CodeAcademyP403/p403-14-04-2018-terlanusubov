@@ -1,0 +1,31 @@
+.drag , .drop {
+    width:603.5px;
+    height:250px;
+    border:2.5px solid yellow;
+    margin:20px auto;
+}
+.outer{
+    border:1px solid black;
+    height:100px;
+    margin-top:10px;
+    
+}
+.dragItems {
+    margin: 2px auto;
+    height:90px;
+    background-color:rgb(6, 61, 6);
+    color:white;
+    text-align:center;
+    line-height: 80px;
+    cursor: pointer;
+}
+.dropItems{
+    margin: 2px auto;
+    height:90px;
+    background-color:rgb(6, 61, 6);
+    color:white;
+    text-align:center;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
